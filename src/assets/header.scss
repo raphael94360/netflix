@@ -5,10 +5,11 @@
   display: flex;
   justify-content: center;
   padding: 50px 20px 0px 20px;
-  max-width: 320px;
+  max-width: 280px;
 
   @include small {
     justify-content: flex-start;
+    max-width: 580;
   }
 
   img {

@@ -8,7 +8,7 @@
     max-width: 320px;
 
     @include small {
-      max-width: 600px;
+      max-width: 560px;
     }
 
     h2 {
@@ -22,6 +22,11 @@
       flex-wrap: nowrap;
       overflow: hidden;
       overflow-x: auto;
+      max-width: 280px;
+      @include small {
+        max-width: 560px;
+
+      }
 
       img {
         object-fit: cover;
